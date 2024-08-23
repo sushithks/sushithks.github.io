@@ -1257,7 +1257,24 @@ form .button-area {
 
 
 }
+
+#display-box3 {
+  position: relative;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 500px; /* Adjust as needed */
+  background-color: white; /* Background color */
+  border: 1px solid #ccc; /* Border */
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Box shadow */
+
+
+}
 .hidden1 {
+  display: none;
+
+}
+.hidden2 {
   display: none;
 
 }

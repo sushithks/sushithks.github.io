@@ -251,3 +251,8 @@ document.getElementById('trigger-box2').addEventListener('click', function() {
   // Toggle the visibility of the display box
   displayBox.classList.toggle('hidden1');
 });
+document.getElementById('trigger-box3').addEventListener('click', function() {
+  var displayBox = document.getElementById('display-box3');
+  // Toggle the visibility of the display box
+  displayBox.classList.toggle('hidden2');
+});
