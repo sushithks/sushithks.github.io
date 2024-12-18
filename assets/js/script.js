@@ -229,6 +229,9 @@ srtop.reveal('.skills .container .bar', { delay: 400 });
 /* SCROLL EDUCATION */
 srtop.reveal('.education .box', { interval: 200 });
 
+/* SCROLL CERTIFICATION */
+srtop.reveal('.certification .box', { interval: 200 });
+
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 200 });
 
@@ -255,4 +258,9 @@ document.getElementById('trigger-box3').addEventListener('click', function() {
   var displayBox = document.getElementById('display-box3');
   // Toggle the visibility of the display box
   displayBox.classList.toggle('hidden2');
+});
+document.getElementById('trigger-box4').addEventListener('click', function() {
+  var displayBox = document.getElementById('display-box4');
+  // Toggle the visibility of the display box
+  displayBox.classList.toggle('hidden3');
 });
