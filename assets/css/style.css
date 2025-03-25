@@ -679,7 +679,7 @@ header .navbar ul li a:hover {
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
 }
 .certification .box-container .box .image {
-  flex: 1 1 20rem;
+  flex: 1 1 8rem;
   width: 100%;
 }
 .certification .box-container .box img {
