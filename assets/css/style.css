@@ -664,7 +664,9 @@ header .navbar ul li a:hover {
 .certification .box-container .box {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 70%;
+  transform: scale(1.0); /* scales down everything inside */
+  transform-origin: top center; /* keeps it centered while scaling */
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;
